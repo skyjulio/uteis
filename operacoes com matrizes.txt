@@ -1,0 +1,44 @@
+
+
+import numpy as np
+
+joao_pts = [20, 30, 40, 50]
+maria = [1,2,3,4]
+marcos = [3,4,5,6]
+
+pontos =  np.array([joao_pts, maria, marcos])
+pontos
+
+pontos[0]
+
+pontos [1][0]
+
+my_data = np.arange(0,19)
+print (my_data)
+
+mat1 = np.reshape(my_data, (5,4))
+print (mat1)
+
+#buscar um elemento
+
+mat1[2,2]
+
+buscar um elemento
+pontos.item(5)
+-- 24
+
+dividir uma matriz por outra
+
+declara as matrizes
+m1 = ... elementos
+m2 = ... elementos
+m2 / m1 
+
+demais operações seguem o mesmo padrão
+
+------------------------------------
+no cmd
+
+pip3 install matplotlib
+
+
