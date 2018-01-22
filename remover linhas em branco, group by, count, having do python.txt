@@ -1,0 +1,33 @@
+
+
+dropna()
+
+remover linhas com dados em branco Nan no python
+
+df.dropna(how='all') remover onde toda a linha não contem nenhum valor
+
+df.dropna(thresh=3) remover linha onde tem mais de 3 informações perdidas
+
+
+df['serie'.fillna(8) -- preencher dados de uma serie (coluna) com valores
+
+df[df['nome'].notnull() & df['sexo'].notnull -- where do sql
+
+
+
+
+-- Group and Agragate
+
+df.groupby('candadate') -- carregou os dados, e passa a serie (nome do campo igual a fulano)
+
+df.groupby('candadate').agragate({'votes': [min, np.mean, max]}) -- count by com groupby do sql
+
+da[df['votes'] == 545454] -- where ou having do SQL
+
+
+
+
+
+
+
+
