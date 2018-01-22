@@ -25,6 +25,10 @@ df.groupby('candadate').agragate({'votes': [min, np.mean, max]}) -- count by com
 da[df['votes'] == 545454] -- where ou having do SQL
 
 
+def fraction_votes_(x):
+	return x['fraction_votes').sum > 0.8
+df.groupby('state').filter(fraction_votes_)
+
 
 
 
