@@ -30,8 +30,64 @@ def fraction_votes_(x):
 df.groupby('state').filter(fraction_votes_)
 
 
+Union do sql
+
+alunos1 = pd.dataFrame(
+{
+'nome': ['maria', 'sofia'],
+'nota': ['8,9'],
+}
+alunos2 = pd.dataFrame(
+{
+'nome': ['maria', 'pedro'],
+'nota': ['7,5'],
+}
+)
+alunos_total = pd.merge9alunos1, alunos2
+
+alunos_total
+
+pd.merge(alunos1, alunos2, how='outer') --outer join do sql 
+
+pd.merge(alunos1, alunos2, how='inner') -- inner join 
+
+pd.merge(alunos1, alunos2, how='left')-- left join 
+
+log_df.dtypes -- retorna o tipo das colunas
+
+-- Aula 83 tipos de dados 
+
+log_dt['date'] = pd.to_datetime(log_df['date'], format='%y-%m-%d %hH%M:%S.%f')
+
+log_df.set_index(['date'], inplace=True
+
+log_df.head()
+
+log_df['2017'] -- select with where
+log_df['2017-01-03 10:47' : '2017-01-03 10:47' ]
+
+-- Aula 84  -- pivot tables
+
+rank
+
+primary_df['rank'] = primary_df.groupby(['countr', 'party'])['votes'].rank(ascending=False)
+
+
+-- Aula 85 Matplotlib
+-- plotar grafico e já salvar em .png
 
 
 
+-- Aula 85 Seaborn
+todas a libs são instaladas via pip3 install 
+
+
+-- Aula 88 - Histograma, grafico tipo pizza
+
+pydataset.data('titanic', show_doc=True 
+
+titanic ['class'].value_counts().plot(kind='bar')
+
+-- Aula 89 - grafico de dispersão
 
 
