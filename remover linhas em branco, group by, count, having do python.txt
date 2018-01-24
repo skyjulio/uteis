@@ -90,4 +90,20 @@ titanic ['class'].value_counts().plot(kind='bar')
 
 -- Aula 89 - grafico de dispersão
 
+plt.plot(df['time'], df['AirPassengers'])
+
+plt.scatter(df['time'], df['AirPassengers'])
+
+.tail (listar ultimos registro) top 10 order by desc 
+
+setando o tamanho dos pontos 
+plt.scatter(iris['Sepal.Length'], iris['sepa.width'], sizes=iris['Peda.Length'])
+
+
+-- Aula 89 - Visualizando mapas
+
+
+
+
+
 
