@@ -1,0 +1,6 @@
+
+
+https://cran.r-project.org/bin/windows/base/
+
+https://www.rstudio.com/products/rstudio/download/
+
